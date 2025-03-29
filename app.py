@@ -13,20 +13,18 @@ openai.api_key = OPENAI_API_KEY
 def webhook():
     try:
         data = request.get_json()
-        print("📦 LINE 傳來的內容：", data)
+        print("Incoming data:", data)
 
-        # 檢查是否有 events
         events = data.get("events", [])
         if not events:
-            print("⚠️ 沒有 events（可能是 webhook 測試）")
-            return "No events", 200
+            print("⚠️ 沒有 events（LINE webhook 測試用）")
+            return "OK", 200  # ✅ 回傳成功狀態給 LINE
 
         event = events[0]
 
-        # 確保是文字訊息才處理
         if "message" not in event or "text" not in event["message"]:
-            print("⚠️ 非文字訊息，略過")
-            return "Not a text message", 200
+            print("⚠️ 非文字訊息")
+            return "OK", 200
 
         user_msg = event["message"]["text"]
         reply_token = event["replyToken"]
@@ -52,7 +50,7 @@ def webhook():
         }
         requests.post("https://api.line.me/v2/bot/message/reply", headers=headers, json=reply_body)
 
-        return "OK"
+        return "OK", 200
     except Exception as e:
         print("❌ 發生錯誤：", str(e))
         return "ERROR", 500
