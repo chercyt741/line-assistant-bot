@@ -1,3 +1,5 @@
 flask
 requests
 openai
+line-bot-sdk
+python-dotenv
