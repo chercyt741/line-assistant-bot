@@ -1,0 +1,174 @@
+[33mWARNING[0m:  [27-03-2025 00:17:03] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048575. chroma_server_nofile will not be set.
+[32mINFO[0m:     [27-03-2025 00:17:03] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [27-03-2025 00:17:03] Starting component System
+[36mDEBUG[0m:    [27-03-2025 00:17:03] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [27-03-2025 00:17:03] Starting component SqliteDB
+[36mDEBUG[0m:    [27-03-2025 00:17:03] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [27-03-2025 00:17:03] Starting component Posthog
+[36mDEBUG[0m:    [27-03-2025 00:17:03] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [27-03-2025 00:17:03] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [27-03-2025 00:17:03] Starting component LocalExecutor
+[36mDEBUG[0m:    [27-03-2025 00:17:03] Starting component SegmentAPI
+[36mDEBUG[0m:    [27-03-2025 00:17:03] Starting component SimpleAsyncRateLimitEnforcer
+[32mINFO[0m:     [27-03-2025 00:17:03] Started server process [[36m93290[0m]
+[32mINFO[0m:     [27-03-2025 00:17:03] Waiting for application startup.
+[32mINFO[0m:     [27-03-2025 00:17:03] Application startup complete.
+[32mINFO[0m:     [27-03-2025 00:17:03] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [27-03-2025 00:17:20] ::1:62707 - "GET / HTTP/1.1" 404
+[32mINFO[0m:     [27-03-2025 00:17:21] ::1:62707 - "GET /favicon.ico HTTP/1.1" 404
+[32mINFO[0m:     [27-03-2025 00:17:54] ::1:62710 - "GET / HTTP/1.1" 404
+[32mINFO[0m:     [27-03-2025 00:18:08] Shutting down
+[32mINFO[0m:     [27-03-2025 00:18:08] Waiting for application shutdown.
+[36mDEBUG[0m:    [27-03-2025 00:18:08] Stopping component System
+[36mDEBUG[0m:    [27-03-2025 00:18:08] Stopping component SegmentAPI
+[36mDEBUG[0m:    [27-03-2025 00:18:08] Stopping component LocalExecutor
+[36mDEBUG[0m:    [27-03-2025 00:18:08] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [27-03-2025 00:18:08] Stopping component SimpleAsyncRateLimitEnforcer
+[36mDEBUG[0m:    [27-03-2025 00:18:08] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [27-03-2025 00:18:08] Stopping component Posthog
+[36mDEBUG[0m:    [27-03-2025 00:18:08] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [27-03-2025 00:18:08] Stopping component SqliteDB
+[36mDEBUG[0m:    [27-03-2025 00:18:08] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [27-03-2025 00:18:08] Application shutdown complete.
+[32mINFO[0m:     [27-03-2025 00:18:08] Finished server process [[36m93290[0m]
+[33mWARNING[0m:  [27-03-2025 00:18:25] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048575. chroma_server_nofile will not be set.
+[32mINFO[0m:     [27-03-2025 00:18:26] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [27-03-2025 00:18:26] Starting component System
+[36mDEBUG[0m:    [27-03-2025 00:18:26] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [27-03-2025 00:18:26] Starting component SqliteDB
+[36mDEBUG[0m:    [27-03-2025 00:18:26] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [27-03-2025 00:18:26] Starting component Posthog
+[36mDEBUG[0m:    [27-03-2025 00:18:26] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [27-03-2025 00:18:26] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [27-03-2025 00:18:26] Starting component LocalExecutor
+[36mDEBUG[0m:    [27-03-2025 00:18:26] Starting component SegmentAPI
+[36mDEBUG[0m:    [27-03-2025 00:18:26] Starting component SimpleAsyncRateLimitEnforcer
+[32mINFO[0m:     [27-03-2025 00:18:26] Started server process [[36m93337[0m]
+[32mINFO[0m:     [27-03-2025 00:18:26] Waiting for application startup.
+[32mINFO[0m:     [27-03-2025 00:18:26] Application startup complete.
+[32mINFO[0m:     [27-03-2025 00:18:26] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [27-03-2025 00:18:27] ::1:62723 - "GET / HTTP/1.1" 404
+[32mINFO[0m:     [27-03-2025 00:18:34] ::1:62725 - "GET / HTTP/1.1" 404
+[32mINFO[0m:     [27-03-2025 00:18:35] ::1:62725 - "GET / HTTP/1.1" 404
+[32mINFO[0m:     [27-03-2025 00:18:36] ::1:62725 - "GET / HTTP/1.1" 404
+[32mINFO[0m:     [27-03-2025 00:18:36] ::1:62725 - "GET / HTTP/1.1" 404
+[32mINFO[0m:     [27-03-2025 00:18:58] ::1:62732 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 00:18:58] ::1:62733 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 00:18:58] ::1:62732 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 00:24:51] ::1:62860 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 00:24:51] ::1:62861 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-03-2025 00:24:51] Collection funeral_articles already exists, returning existing collection.
+[32mINFO[0m:     [27-03-2025 00:24:51] ::1:62860 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 01:26:01] ::1:63167 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 01:26:01] ::1:63168 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-03-2025 01:26:01] Collection funeral_articles already exists, returning existing collection.
+[32mINFO[0m:     [27-03-2025 01:26:01] ::1:63167 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 01:26:27] ::1:63180 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 01:26:27] ::1:63181 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-03-2025 01:26:27] Collection funeral_articles already exists, returning existing collection.
+[32mINFO[0m:     [27-03-2025 01:26:27] ::1:63180 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:02:46] ::1:63680 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:02:46] ::1:63681 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-03-2025 02:02:46] Collection funeral_articles already exists, returning existing collection.
+[32mINFO[0m:     [27-03-2025 02:02:46] ::1:63680 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:02:48] ::1:63680 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:02:48] ::1:63681 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-03-2025 02:02:48] Collection funeral_articles already exists, returning existing collection.
+[32mINFO[0m:     [27-03-2025 02:02:48] ::1:63680 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:06:26] ::1:63759 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:06:26] ::1:63760 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-03-2025 02:06:26] Collection funeral_articles already exists, returning existing collection.
+[32mINFO[0m:     [27-03-2025 02:06:26] ::1:63759 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:07:30] ::1:63776 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:07:30] ::1:63777 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-03-2025 02:07:30] Collection funeral_articles already exists, returning existing collection.
+[32mINFO[0m:     [27-03-2025 02:07:30] ::1:63776 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:09:46] ::1:63833 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:09:46] ::1:63834 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-03-2025 02:09:46] Collection funeral_articles already exists, returning existing collection.
+[32mINFO[0m:     [27-03-2025 02:09:46] ::1:63833 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:10:05] ::1:63838 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:10:05] ::1:63839 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-03-2025 02:10:05] Collection funeral_articles already exists, returning existing collection.
+[32mINFO[0m:     [27-03-2025 02:10:05] ::1:63838 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:10:23] ::1:63846 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:10:23] ::1:63847 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-03-2025 02:10:23] Collection funeral_articles already exists, returning existing collection.
+[32mINFO[0m:     [27-03-2025 02:10:23] ::1:63846 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:10:48] ::1:63856 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:10:48] ::1:63857 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-03-2025 02:10:48] Collection funeral_articles already exists, returning existing collection.
+[32mINFO[0m:     [27-03-2025 02:10:48] ::1:63856 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:11:27] ::1:63872 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:11:27] ::1:63873 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-03-2025 02:11:27] Collection funeral_articles already exists, returning existing collection.
+[32mINFO[0m:     [27-03-2025 02:11:27] ::1:63872 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:11:34] ::1:63880 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:11:34] ::1:63881 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-03-2025 02:11:34] Collection funeral_articles already exists, returning existing collection.
+[32mINFO[0m:     [27-03-2025 02:11:34] ::1:63880 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:12:17] ::1:63896 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:12:17] ::1:63897 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-03-2025 02:12:17] Collection funeral_articles already exists, returning existing collection.
+[32mINFO[0m:     [27-03-2025 02:12:17] ::1:63896 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:13:49] ::1:63937 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:13:49] ::1:63938 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-03-2025 02:13:49] Collection funeral_articles already exists, returning existing collection.
+[32mINFO[0m:     [27-03-2025 02:13:49] ::1:63937 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:14:19] ::1:63948 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:14:19] ::1:63949 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-03-2025 02:14:19] Collection funeral_articles already exists, returning existing collection.
+[32mINFO[0m:     [27-03-2025 02:14:19] ::1:63948 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:18:08] ::1:64012 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:18:08] ::1:64013 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-03-2025 02:18:08] Collection funeral_articles already exists, returning existing collection.
+[32mINFO[0m:     [27-03-2025 02:18:08] ::1:64012 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:18:56] ::1:64034 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:18:56] ::1:64035 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-03-2025 02:18:56] Collection funeral_articles already exists, returning existing collection.
+[32mINFO[0m:     [27-03-2025 02:18:56] ::1:64034 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:19:34] ::1:64049 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:19:34] ::1:64050 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-03-2025 02:19:34] Collection funeral_articles already exists, returning existing collection.
+[32mINFO[0m:     [27-03-2025 02:19:34] ::1:64049 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:20:56] ::1:64076 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:20:56] ::1:64077 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-03-2025 02:20:56] Collection funeral_articles already exists, returning existing collection.
+[32mINFO[0m:     [27-03-2025 02:20:56] ::1:64076 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:22:00] ::1:64107 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:22:00] ::1:64108 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-03-2025 02:22:00] Collection funeral_articles already exists, returning existing collection.
+[32mINFO[0m:     [27-03-2025 02:22:00] ::1:64107 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:23:25] ::1:64133 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:23:25] ::1:64134 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-03-2025 02:23:25] Collection funeral_articles already exists, returning existing collection.
+[32mINFO[0m:     [27-03-2025 02:23:25] ::1:64133 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:29:10] ::1:64202 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:29:10] ::1:64203 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-03-2025 02:29:10] Collection funeral_articles already exists, returning existing collection.
+[32mINFO[0m:     [27-03-2025 02:29:10] ::1:64202 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:31:38] ::1:64258 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 02:31:38] ::1:64259 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-03-2025 02:31:38] Collection funeral_articles already exists, returning existing collection.
+[32mINFO[0m:     [27-03-2025 02:31:38] ::1:64258 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 16:38:39] ::1:51040 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 16:38:39] ::1:51041 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-03-2025 16:38:39] Collection funeral_articles already exists, returning existing collection.
+[32mINFO[0m:     [27-03-2025 16:38:39] ::1:51040 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 16:38:54] Backing off send_request(...) for 0.8s (requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Read timed out. (read timeout=15))
+[32mINFO[0m:     [27-03-2025 16:39:53] ::1:51142 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 16:39:53] ::1:51143 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-03-2025 16:39:53] Collection funeral_articles already exists, returning existing collection.
+[32mINFO[0m:     [27-03-2025 16:39:53] ::1:51142 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 16:40:15] ::1:51153 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 16:40:15] ::1:51154 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-03-2025 16:40:15] Collection funeral_articles already exists, returning existing collection.
+[32mINFO[0m:     [27-03-2025 16:40:15] ::1:51153 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 16:52:07] ::1:51342 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 16:52:07] ::1:51343 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-03-2025 16:52:07] Collection funeral_articles already exists, returning existing collection.
+[32mINFO[0m:     [27-03-2025 16:52:07] ::1:51342 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 16:55:31] ::1:51464 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-03-2025 16:55:31] ::1:51465 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-03-2025 16:55:31] Collection funeral_articles already exists, returning existing collection.
+[32mINFO[0m:     [27-03-2025 16:55:31] ::1:51464 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
